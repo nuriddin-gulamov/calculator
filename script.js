@@ -239,6 +239,4 @@ document.addEventListener("keydown", function (event) {
         
         default: return;
     }
-})
-
-console.log(document.getElementsByClassName("button"));
+});
