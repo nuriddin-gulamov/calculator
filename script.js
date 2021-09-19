@@ -116,7 +116,8 @@ class Calculator {
 
             case "-":
                 result = prev - current;
-
+                break;
+                
             default: return;
         }
         this.previousOperand = "";
