@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Calculator</title>
+</head>
+<body>
+    <!-- Container -->
+    <div class="container">
+        <!-- Light & Dark Modes -->
+        <button class="modes" id="dark-mode">Dark</button>
+        <button class="modes" id="light-mode">Light</button>
+
+        <!-- Calculator Container -->
+        <div class="calculator-container">
+            <div class="output">
+                <p data-previous-operand class="previous-operand"></p>
+                <p data-current-operand class="current-operand"></p>
+            </div>
+            <div class="buttons-container">
+                <button data-all-clear class="button span-two">AC</button>
+                <button data-delete class="button">DEL</button>
+                <button data-operation class="button">/</button>
+                <button data-number class="button">1</button>
+                <button data-number class="button">2</button>
+                <button data-number class="button">3</button>
+                <button data-operation class="button">*</button>
+                <button data-number class="button">4</button>
+                <button data-number class="button">5</button>
+                <button data-number class="button">6</button>
+                <button data-operation class="button">+</button>
+                <button data-number class="button">7</button>
+                <button data-number class="button">8</button>
+                <button data-number class="button">8</button>
+                <button data-operation class="button">-</button>
+                <button data-number class="button">.</button>
+                <button data-number class="button">0</button>
+                <button data-equals class="button span-two">=</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
